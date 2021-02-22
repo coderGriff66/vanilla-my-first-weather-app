@@ -24,6 +24,44 @@
     <title>The Weather App</title>
   </head>
   <body>
+    <div class="row">
+      <div class="col-6">
+        <h3 class="top-header" Your Weather Forecast></h3>
+      </div>
+      <div class="col-6">
+        <ul class="what-is-today">
+          <li id="what-date"><strong>Monday, February 22, 2021</strong></li>
+          <li id="what-time">12:00pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <form class="search-form" id="search-form">
+      <div class="row choose">
+        <div class="col-7">
+          <input type="search" placeholder="Enter A City" autofucus"on"
+          autocomplete="off" id="search-city" class="form-control shadow sm
+          border=0">
+        </div>
+        <div class="col-3">
+          <input
+            type="submit"
+            value="search"
+            class="btn btn-search"
+            class="form-control shadow sm border=1"
+          />
+        </div>
+        <div class="col-2">
+          <button class="current-button" id="current-button">
+            My Location
+          </button>
+        </div>
+      </div>
+    </form>
+    <div class="city-chosen">
+      <h1 id="city">Detroit</h1>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
