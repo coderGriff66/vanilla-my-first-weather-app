@@ -1,0 +1,48 @@
+.container {
+  max-width: 650px;
+  max-height: 90%;
+  border: gray solid 2px;
+  border-radius: 8px;
+}
+
+.weatherApp {
+  margin: auto;
+  max-width: 600px;
+}
+
+.top-header {
+  padding-top: 30px;
+}
+
+.current-button {
+  background: rgb(148, 21, 207);
+  color: beige;
+  padding: 5px, 30px;
+  border-radius: 4px;
+}
+
+.current-button:hoover {
+  background: rgb(145, 7, 138);
+  color: beige;
+  cursor: pointer;
+}
+
+.what-is-today {
+  font-weight: bold;
+  list-style-type: none;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 35px;
+}
+
+.choose {
+  padding: 10px;
+}
+
+.conditions {
+  font-size: 18px;
+  list-style-type: none;
+  text-align: left;
+  padding-left: 15px;
+  line-height: 2.5;
+}
